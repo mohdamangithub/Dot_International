@@ -27,7 +27,7 @@ const App = () => {
             ))}
       </div>
     </div>
-    <Link to="https://web.whatsapp.com/" className="whatsapp-icon fixed right-5 bottom-4 w-16 h-16 rounded-full z-20 ">
+    <Link to="https://web.whatsapp.com/" className="whatsapp-icon fixed right-5 bottom-4 shadow-md shadow-[#6a6a6a] w-16 h-16 rounded-full z-20 ">
     <img src={Whatsapp_Logo} alt="" />
     </Link>
    <Routes>
