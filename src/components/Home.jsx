@@ -1,22 +1,20 @@
 import React from 'react'
-import Page_1 from './Home-Page/Page_1'
-import Page_2 from './Home-Page/Page_2'
-import Page_3 from './Home-Page/Page_3'
-import Page_4 from './Home-Page/Page_4'
-import Page_5 from './Home-Page/Page_5'
-import Page_6 from './Home-Page/Page_6'
+import { Link } from 'react-router-dom'
+import Page_1_img from '../assets/img/Page1_img.jpg'
 
-const Home = () => {
+const Page_1 = () => {
   return (
-    <div className='w-full'>
-      <Page_1/>
-      <Page_2/>
-      <Page_3/>
-      <Page_4/>
-      <Page_5/>
-      <Page_6/>
+    <div className='page_1 flex justify-between w-full h-screen px-24'>
+        <img className='scale-[0.9] hover:scale-[0.94] rounded-t-full shadow-md shadow-[black] ' src={Page_1_img} alt="" />
+        <div className='pt-14'>
+            <h1 className='mb-3 text-6xl'>WE ARE</h1>
+            <h1 className='mb-3 text-6xl'>A <span className='font-bold'>CREATIVE</span></h1>
+            <h1 className='mb-3 text-6xl'>MODERN <span className='font-bold'>DESIGN HOUSE</span></h1>
+            <h1 className='mb-24 text-6xl shadow-md shadow-[#747474] rounded-md bg-[#65D1BE] px-5 py-3 text-white'>WITH FRESH NEW IDEAS</h1>
+            <Link className='px-8 py-3 text-lg rounded-full shadow-md shadow-[#7f7f7f] bg-black text-white'>Read More</Link>
+        </div>
     </div>
   )
 }
 
-export default Home
+export default Page_1

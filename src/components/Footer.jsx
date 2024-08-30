@@ -11,10 +11,10 @@ const Footer = () => {
     <div className='footer flex justify-between w-full h-fit py-16 px-24 bg-black text-[#8d8d8d]'>
        <div className='footer-child1 w-[40%] flex items-center justify-between'>
          <div className='flex flex-col gap-1 text-lg'>
-          <Link>Home</Link>
-          <Link>About</Link>
-          <Link>Services</Link>
-          <Link>Terms of service</Link>
+          <a href='#HOME'>Home</a>
+          <a href='#ABOUT'>About</a>
+          <a href='#SERVICES'>Services</a>
+          <a href='#PROJECTS'>Terms of service</a>
           <Link>Privacy policy</Link>
          </div>
          <div className='flex flex-col gap-1 text-lg'>

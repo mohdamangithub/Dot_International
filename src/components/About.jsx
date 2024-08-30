@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Page_3_img from '../../assets/img/Page3_img.jpg'
+import Page_3_img from '../assets/img/Page3_img.jpg'
 
 const Page_3 = () => {
   return (
-    <div className="page_3 flex items-center justify-center w-full py-16">
+    <div className="page_3 flex items-center justify-center w-full h-screen pt-10" id="ABOUT">
       <div className="page_3-left w-[40%] h-[50vh] px-8 py-10 ">
         <h1 className="text-5xl font-bold">About Us</h1>
         <p className="mt-3 mb-14 text-[grey] text-lg">

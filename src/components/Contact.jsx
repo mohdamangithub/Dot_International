@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Page_6 = () => {
   return (
-    <div className='page_6 flex flex-col items-center justify-center w-full py-5 pb-10 px-24'>
+    <div className='page_6 flex flex-col items-center justify-center w-full py-5 pb-10 px-24 pt-32' id='CONTACT'>
           <h1 className='text-5xl font-bold'>CONTACT</h1>
           <div className='w-[100%] h-[70vh] mt-12 mb-9 overflow-hidden rounded-lg shadow-md shadow-[black]'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62193.74401787275!2d77.45804708644249!3d13.028730146551837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d624a6eb9ef%3A0x975320fcc347a0b0!2sSri%20Lakshmi%20Venkateshwara%20swamy%20nilaya!5e0!3m2!1sen!2sin!4v1724920945081!5m2!1sen!2sin" width='100%' height='100%'></iframe>
